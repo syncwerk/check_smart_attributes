@@ -16,7 +16,7 @@
 				"10" : {"value": "RAW_VALUE", "comment": "Power Cycles"},
 				"11" : {"value": "RAW_VALUE", "comment": "Power On Hours"},
 				"12" : {"value": "RAW_VALUE", "comment": "Unsafe Shutdowns"},
-				"13" : {"value": "RAW_VALUE", "comment": "Media and Data Integrity Errors"},
+				"13" : {"value": "RAW_VALUE", "comment": "Media micronand Data Integrity Errors"},
 				"14" : {"value": "RAW_VALUE", "comment": "Error Information Log Entries"},
 				"15" : {"value": "RAW_VALUE", "comment": "Warning  Comp. Temperature Time"},
 				"16" : {"value": "RAW_VALUE", "comment": "Critical Comp. Temperature Time"},
@@ -1041,7 +1041,7 @@
 			"Perfs" : ["170","194","202","247","248"]
 		},
 		"Micron 5100-5200" : {
-			"Device" : ["Micron_5100_MTFDDAK240TBY","Micron_5100_MTFDDAK480TBY","Micron_5100_MTFDDAK960TBY","Micron_5100_MTFDDAK960TCB","Micron_5200_MTFDDAK3T8TDC"],
+			"Device" : ["Micron_5100_MTFDDAK240TBY","Micron_5100_MTFDDAK480TBY","Micron_5100_MTFDDAK960TBY","Micron_5100_MTFDDAK960TCB","Micron_5200_MTFDDAK3T8TDC", "Micron_1100_MTFDDAK256TBN"],
 			"ID#" : {
 				"1" : {"value": "VALUE", "comment": "Raw Read Error Rate"},
 				"5" : {"value": "RAW_VALUE", "comment": "Reallocated NAND Block Count"},
